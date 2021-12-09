@@ -1,5 +1,5 @@
 {
-    "name": "mpociot/phpws",
+    "name": "leenooks/phpws",
     "description": "WebSocket Server and Client library for PHP",
     "minimum-stability": "stable",
     "authors": [
