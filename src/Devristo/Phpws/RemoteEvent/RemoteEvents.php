@@ -14,7 +14,7 @@ class RemoteEvents extends \Evenement\EventEmitter
     protected $rooms = array();
     protected $logger;
 
-    public function __construct(\Zend\Log\LoggerInterface $logger)
+    public function __construct(\Laminas\Log\LoggerInterface $logger)
     {
         $this->logger = $logger;
     }

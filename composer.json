@@ -14,9 +14,9 @@
         }
     },
     "require": {
-        "zendframework/zend-log": "2.*",
+        "laminas/laminas-log": "^2.0",
         "react/socket": "^1.0 || ^0.8.6",
         "react/stream": "^1.0 || ^0.7.5",
-        "zendframework/zend-http": "2.*"
+        "laminas/laminas-http": "^2.0"
     }
 }

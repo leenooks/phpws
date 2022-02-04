@@ -12,8 +12,8 @@ use Evenement\EventEmitter;
 use Exception;
 use React\EventLoop\LoopInterface;
 use SplObjectStorage;
-use Zend\Log\LoggerInterface;
-use Zend\Uri\Uri;
+use Laminas\Log\LoggerInterface;
+use Laminas\Uri\Uri;
 
 /**
  * WebSocketServer

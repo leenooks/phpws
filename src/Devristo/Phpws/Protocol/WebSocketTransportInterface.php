@@ -10,8 +10,8 @@ namespace Devristo\Phpws\Protocol;
 
 use Devristo\Phpws\Framing\WebSocketFrameInterface;
 use Devristo\Phpws\Messaging\WebSocketMessageInterface;
-use Zend\Http\Request;
-use Zend\Http\Response;
+use Laminas\Http\Request;
+use Laminas\Http\Response;
 
 interface WebSocketTransportInterface extends TransportInterface
 {

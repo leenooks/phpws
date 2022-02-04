@@ -6,7 +6,6 @@ use React\Dns\Resolver\Factory;
 use React\Dns\Resolver\Resolver;
 use React\EventLoop\LoopInterface;
 use React\Promise;
-use React\Promise\When;
 use React\Socket\ConnectorInterface;
 use React\Socket\DnsConnector;
 use React\Socket\SecureConnector;
@@ -141,7 +140,7 @@ class Connector implements ConnectorInterface
         $socket = stream_socket_client($url, $errno, $errstr, 0, $flags, $context);
 
         if (!$socket) {
-            return When::reject(new \RuntimeException(
+            return Promise\reject(new \RuntimeException(
                 sprintf("connection to %s:%d failed: %s", $address, $port, $errstr),
                 $errno
             ));

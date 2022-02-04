@@ -12,10 +12,10 @@ use Devristo\Phpws\Framing\WebSocketFrameInterface;
 use Devristo\Phpws\Messaging\WebSocketMessageInterface;
 use Evenement\EventEmitter;
 use React\Stream\WritableStreamInterface;
-use Zend\Http\Request;
-use Zend\Http\Response;
-use Zend\Log\LoggerAwareInterface;
-use Zend\Log\LoggerInterface;
+use Laminas\Http\Request;
+use Laminas\Http\Response;
+use Laminas\Log\LoggerAwareInterface;
+use Laminas\Log\LoggerInterface;
 
 abstract class WebSocketTransport extends EventEmitter implements WebSocketTransportInterface, LoggerAwareInterface
 {

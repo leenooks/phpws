@@ -14,7 +14,7 @@ use Devristo\Phpws\Protocol\TransportInterface;
 use Devristo\Phpws\Protocol\WebSocketTransport;
 use Devristo\Phpws\Protocol\WebSocketTransportInterface;
 use Devristo\Phpws\Server\WebSocketServer;
-use Zend\Log\LoggerInterface;
+use Laminas\Log\LoggerInterface;
 
 class ClientRouter {
     protected $handlers;

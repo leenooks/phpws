@@ -5,8 +5,8 @@ namespace Devristo\Phpws\Protocol;
 use Exception;
 use React\EventLoop\LoopInterface;
 use React\Socket\Connection;
-use Zend\Http\Request;
-use Zend\Log\LoggerInterface;
+use Laminas\Http\Request;
+use Laminas\Log\LoggerInterface;
 
 class WebSocketConnection extends Connection
 {

@@ -16,10 +16,10 @@ use Evenement\EventEmitter;
 use React\EventLoop\LoopInterface;
 use React\Promise\Deferred;
 use React\Socket\ConnectionInterface;
-use Zend\Http\Request;
-use Zend\Http\Response;
-use Zend\Log\LoggerInterface;
-use Zend\Uri\Uri;
+use Laminas\Http\Request;
+use Laminas\Http\Response;
+use Laminas\Log\LoggerInterface;
+use Laminas\Uri\Uri;
 
 class WebSocket extends EventEmitter
 {

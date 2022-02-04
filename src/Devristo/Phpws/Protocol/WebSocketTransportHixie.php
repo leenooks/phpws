@@ -6,9 +6,9 @@ use Devristo\Phpws\Exceptions\WebSocketInvalidKeyException;
 use Devristo\Phpws\Framing\WebSocketFrame76;
 use Devristo\Phpws\Messaging\WebSocketMessage76;
 use React\Stream\WritableStreamInterface;
-use Zend\Http\Headers;
-use Zend\Http\Request;
-use Zend\Http\Response;
+use Laminas\Http\Headers;
+use Laminas\Http\Request;
+use Laminas\Http\Response;
 
 class WebSocketTransportHixie extends WebSocketTransport
 {

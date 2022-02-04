@@ -14,7 +14,7 @@ use Devristo\Phpws\Protocol\TransportInterface;
 use Evenement\EventEmitter;
 use React\EventLoop\LoopInterface;
 use React\Promise\Deferred;
-use Zend\Log\LoggerInterface;
+use Laminas\Log\LoggerInterface;
 
 class RemoteEventTransport extends EventEmitter implements TransportInterface{
     /**

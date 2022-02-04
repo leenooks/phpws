@@ -9,8 +9,8 @@
 namespace Devristo\Phpws\Protocol;
 
 use React\Socket\ConnectionInterface;
-use Zend\Http\Request;
-use Zend\Log\LoggerInterface;
+use Laminas\Http\Request;
+use Laminas\Log\LoggerInterface;
 
 class WebSocketTransportFactory
 {

@@ -9,8 +9,8 @@
 namespace Devristo\Phpws\Protocol;
 
 
-use Zend\Http\Request;
-use Zend\Http\Response;
+use Laminas\Http\Request;
+use Laminas\Http\Response;
 
 class StackTransport implements \ArrayAccess, WebSocketTransportInterface{
     protected $stack;
