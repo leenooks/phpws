@@ -61,7 +61,7 @@ class WebSocketServer extends EventEmitter
      *
      * @param $url
      * @param \React\EventLoop\LoopInterface $loop
-     * @param \Zend\Log\LoggerInterface $logger
+     * @param \Laminas\Log\LoggerInterface $logger
      * @throws \InvalidArgumentException
      */
     public function __construct($url, LoopInterface $loop, LoggerInterface $logger)

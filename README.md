@@ -2,6 +2,10 @@ WebSocket Server and Client library for PHP. Works with the latest HyBi specific
 
 This project was started to bring more interactive features to http://www.u2start.com/
 
+NOTES
+============
+References to \Zend\ should be replaced with \Laminas\ as \Zend\ has been abandoned.
+
 Features
 ============
 Server

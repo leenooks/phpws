@@ -10,7 +10,7 @@ class Room extends \Evenement\EventEmitter
     private $name = '';
     private $logger;
 
-    public function __construct($name, \Zend\Log\LoggerInterface $logger)
+    public function __construct($name, \Laminas\Log\LoggerInterface $logger)
     {
         $this->name = $name;
         $this->logger = $logger;
